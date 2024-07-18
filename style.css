@@ -1,0 +1,191 @@
+* {
+    margin: 0; /* Remove margem de todos os elementos */
+    padding: 0; /* Remove preenchimento de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo do tamanho total dos elementos */
+    font-family: "Inder", sans-serif; /* Define a fonte "Inder" como padrão, com fallback para sans-serif */
+    font-weight: 400; /* Define a espessura da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+}
+/* Define estilos globais básicos para margem, preenchimento, box-sizing e fontes */
+
+header {
+    display: flex; /* Define o layout de exibição como flexível */
+    justify-content: space-between; /* Distribui espaço igual entre os elementos dentro do header */
+}
+/* Define o layout do cabeçalho com itens dispostos em uma linha e espaço entre eles */
+
+.logo img {
+    width: 25vw; /* Define a largura da imagem como 25% da largura da viewport */
+    height: 22vh; /* Define a altura da imagem como 22% da altura da viewport */
+}
+/* Define o tamanho da imagem do logo */
+
+nav {
+    width: 70%; /* Define a largura do elemento de navegação como 70% do elemento pai */
+    display: flex; /* Define o layout de exibição como flexível */
+}
+/* Define o layout do elemento de navegação */
+
+header ul {
+    display: flex; /* Define o layout de exibição como flexível */
+    justify-content: space-between; /* Distribui espaço igual entre os itens da lista */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+    list-style: none; /* Remove os marcadores da lista */
+    width: 70%; /* Define a largura da lista como 70% do elemento pai */
+    margin-left: 10%; /* Define uma margem esquerda de 10% */
+    color: #2C4688; /* Define a cor do texto */
+}
+/* Define o layout da lista de navegação no cabeçalho */
+
+.lupa img {
+    width: 6vh; /* Define a largura da imagem como 6% da altura da viewport */
+    margin-left: 3px; /* Define uma margem esquerda de 3 pixels */
+    margin-top: 55px; /* Define uma margem superior de 55 pixels */
+}
+/* Define o tamanho e a margem da imagem da lupa */
+
+.parte1 {
+    background-color: #FFE606; /* Define a cor de fundo como amarela */
+    width: 100%; /* Define a largura como 100% do elemento pai */
+    height: 60vh; /* Define a altura como 60% da altura da viewport */
+    display: flex; /* Define o layout de exibição como flexível */
+    justify-content: space-between; /* Distribui espaço igual entre os elementos dentro da seção */
+}
+/* Define o layout da primeira seção, com fundo amarelo e elementos dispostos em linha */
+
+.textos1 {
+    width: 60vw; /* Define a largura como 60% da largura da viewport */
+    margin-left: 50px; /* Define uma margem esquerda de 50 pixels */
+}
+/* Define a largura e a margem da área de texto na primeira seção */
+
+.carteiro img {
+    width: 40vw; /* Define a largura da imagem como 40% da largura da viewport */
+    height: 60vh; /* Define a altura da imagem como 60% da altura da viewport */
+}
+/* Define o tamanho da imagem do carteiro na primeira seção */
+
+main h1 {
+    width: 45vw;
+    font-size: 45px; /* Define o tamanho da fonte como 45 pixels */
+    margin-top: 4%; /* Define uma margem superior de 4% */
+    margin-left: 10%; /* Define uma margem esquerda de 6% */
+    color: #101E43; /* Define a cor do texto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    
+}
+/* Define o estilo do título principal */
+
+main h4 {
+    width: 38vw; /* Define a largura como 30% da largura da viewport */
+    margin-left: 10%; /* Define uma margem esquerda de 18% */
+    margin-top: 5%; /* Define uma margem superior de 5% */
+    font-size: 23px; /* Define o tamanho da fonte como 19 pixels */
+    color: #293F77; /* Define a cor do texto */
+    
+}
+/* Define o estilo do subtítulo */
+
+main h5 {
+    font-size: 23px; /* Define o tamanho da fonte como 15 pixels */
+    width: 38vw; /* Define a largura como 32% da largura da viewport */
+    margin-left: 10%; /* Define uma margem esquerda de 18% */
+    margin-top: 4%; /* Define uma margem superior de 4% */
+    color: #293F77; /* Define a cor do texto */
+}
+/* Define o estilo do texto menor */
+
+.parte2 {
+    display: flex; /* Define o layout de exibição como flexível */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    background-color: #293F77; /* Define a cor de fundo como azul escuro */
+    height: 80vh; /* Define a altura como 80% da altura da viewport */
+}
+/* Define o layout da segunda seção, com fundo azul escuro e elementos centralizados */
+
+.texto2 {
+    width: 40%; /* Define a largura como 40% do elemento pai */
+    height: 80%; /* Define a altura como 80% do elemento pai */
+    margin-left: 5%; /* Define uma margem esquerda de 5% */
+    color: aliceblue; /* Define a cor do texto como azul claro */
+    flex-direction: column; /* Define a direção do layout flexível como coluna */
+    text-align: center; /* Centraliza o texto */
+    background-color: #293F77; /* Define a cor de fundo como azul escuro */
+}
+/* Define o estilo da área de texto na segunda seção */
+
+.parte2 img {
+    width: 40vw; /* Define a largura da imagem como 40% da largura da viewport */
+}
+/* Define o tamanho da imagem na segunda seção */
+
+main h2 {
+    font-size: 38px; /* Define o tamanho da fonte como 38 pixels */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+/* Define o estilo do subtítulo principal */
+
+main p {
+    font-size: 25px; /* Define o tamanho da fonte como 25 pixels */
+    margin-top: 5%; /* Define uma margem superior de 5% */
+}
+/* Define o estilo do parágrafo principal */
+
+main button {
+    width: 40%; /* Define a largura do botão como 40% do elemento pai */
+    height: 9%; /* Define a altura do botão como 9% do elemento pai */
+    margin-top: 40px; /* Define uma margem superior de 40 pixels */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    background-color: #919595; /* Define a cor de fundo do botão */
+}
+/* Define o estilo do botão principal */
+
+.parte3 {
+    display: flex; /* Define o layout de exibição como flexível */
+    background-color: #E2E9EF; /* Define a cor de fundo como cinza claro */
+}
+/* Define o layout da terceira seção, com fundo cinza claro e elementos dispostos em linha */
+
+h3 {
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 25px; /* Define o tamanho da fonte como 25 pixels */
+    background-color: #E2E9EF; /* Define a cor de fundo */
+    padding-left: 10%; /* Define um preenchimento à esquerda de 10% */
+    padding-top: 2%; /* Define um preenchimento superior de 2% */
+}
+/* Define o estilo do título na terceira seção */
+
+.parte3 img {
+    width: 60%; /* Define a largura da imagem como 60% do elemento pai */
+}
+/* Define o tamanho da imagem na terceira seção */
+
+.parte3 div {
+    margin-top: 2%; /* Define uma margem superior de 2% */
+    text-align: center; /* Centraliza o texto */
+    height: 40vh; /* Define a altura como 40% da altura da viewport */
+}
+/* Define o layout do div na terceira seção */
+
+.parte3 h6 {
+    color: #2C4688; /* Define a cor do texto */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+/* Define o estilo do subtítulo na terceira seção */
+
+footer {
+    height: 10vh; /* Define a altura do rodapé como 10% da altura da viewport */
+    background-color: #091942; /* Define a cor de fundo do rodapé */
+}
+/* Define o estilo do rodapé */
+
+footer h4 {
+    width: 15vw; /* Define a largura do texto como 15% da largura da viewport */
+    color: #E2E9EF; /* Define a cor do texto */
+    font-size: 10px; /* Define o tamanho da fonte como 10 pixels */
+    margin-left: 20px; /* Define uma margem esquerda de 20 pixels */
+    padding-top: 20px; /* Define um preenchimento superior de 20 pixels */
+}
+/* Define o estilo do texto no rodapé */
